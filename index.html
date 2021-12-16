@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BASE DU JS</title>
+  </head>
+
+  <body>
+    <!-- mon html -->
+    <div></div>
+    <!-- script js -->
+    <script>
+      "use strict"; // le use strict permet de lever certaines erreurs qui normalement ne sont pas prise en compts
+      // toto = "toto"; il est impossible de créer accidentellement des variables globales avec le use strict
+
+      var toto = "tata";
+      console.log(tata);
+      let coucou = "coucou";
+      // voiture = "une voiture rouge";
+      console.log(coucou);
+      // génère un popup d'alert
+      alert("bonjour à tous !");
+      //inscrit directement dans la page web
+      document.write("<h1>vous êtes dans votre page html, navigateur</h1>");
+      // popup avec une question qui attend une réponse de user (utilisateur)
+      let question = window.prompt("une question ?");
+      console.log(question);
+    </script>
+    <script src="js/monscript.js"></script>
+  </body>
+</html>
