@@ -32,6 +32,23 @@ let number1 = 10;
 number1 = 15;
 let phraseNumber = "le chiffre est : " + number1 + " degrés";
 console.log(phraseNumber);
+
 //les backtick permettent d'éviter la concaténation
+let number2 = "25";
 let phrase3 = `le chiffre est : ${number1} ${number2}`;
 console.log(phrase3);
+
+// ---------------------- LES TYPES DE VARIABLES ----------------------
+
+let string = "je suis une chaine de caractère";
+let number = 24;
+let number24 = "24";
+console.log(number + parseInt(number24));
+let boolean = true; //un boolean est true ou false (vrai ou faux)
+let array = ["je", "suis", "Chan", 50, true, false, ["voiture", 15]]; //un tableau
+console.log(array); //un tableau commence à l'index 0 =>la première valeur du tableau
+
+let object = {prenom : "chan", age: 25, ville: "Gonesse", km: 2};//l'objet fonctionne avec des key et des value key:value
+
+console.log(object);
+//
