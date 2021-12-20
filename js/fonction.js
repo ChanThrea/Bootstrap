@@ -22,3 +22,23 @@ function avanceVersOuest(distanceDeMarche,gourde) {
 avanceVersOuest(25, "thé et du lait");
 let contenu = "du coca";
 avanceVersOuest(25, contenu);
+
+// fonction qui se joue toute seule
+// une fonction anonyme
+(function () {
+    console.log("je me joue toute seule");
+})();
+//fonction anonyme fléché
+(() => {
+    console.log("je me joue aussi toute seule");
+})();
+
+// les variables et les portées 
+function add2() {
+    let g = 4;
+    let a = 2;
+    return g + 2;
+}
+console.log("ma fonction retourne : " + add2());
+// a n'existe pas à l'intérieur de ma fonction
+console.log(a);
