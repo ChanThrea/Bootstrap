@@ -1,0 +1,46 @@
+section img {
+  /* image dans chaque section */
+  width: 100%;
+}
+
+section {
+  /* texte Section 1 2 et 3 */
+  font-family: "Cookie", cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  /* texte paragraphe dans chaque section */
+  font-family: "Cookie", cursive;
+  font-weight: lighter;
+}
+
+h1 {
+  /* titre header "Ma page HTML" */
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  border: 1px solid rgb(136, 175, 188);
+}
+
+figure {
+  border: thin black solid;
+  display: flex;
+  flex-flow: column;
+  max-width: 220px;
+  margin: auto;
+  padding: 0px;
+}
+
+figcaption {
+  color: lightblue;
+  font: smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+  font-family: "Cookie", cursive;
+}
+
+main {
+  /* main contenant les trois sections */
+  display: flex;
+}
