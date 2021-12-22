@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  color: black;
+  color: white;
   /* le double de la hauteur */
   min-height: 200vh;
   overflow-x: hidden;
